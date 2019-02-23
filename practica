@@ -1,0 +1,7 @@
+from fecha import Fecha
+fecha = Fecha(30, 9, 1998)
+fecha.verificarfecha()
+print('La fecha del dia siguiente es: ',fecha.getDiaSiguiente(),'/',fecha.getMesSiguiente(),'/', fecha.getAnioSiguiente())
+print ('El dia es ',fecha.getDiaSiguiente())
+print ('El mes es ',fecha.getMesSiguiente())
+print ('El año es ',fecha.getAnioSiguiente())
